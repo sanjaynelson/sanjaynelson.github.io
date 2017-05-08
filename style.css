@@ -1,3 +1,34 @@
 body {
-background: blue;
+padding: 20px;
+}
+.siteheader {
+  font-family: helvetica;
+  letter-spacing: .5em;
+  text-align: center;
+  margin: 20px;
+}
+.headerborder {
+  border: 6px solid #e0e0e0;
+}
+#info {
+  background-image: url(images/graycloudslowcon.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+#info p, ul {
+  color: white;
+}
+a:visited {
+  color: green;
+}
+@media screen and (max-width: 480px) {
+  .siteheader {
+    letter-spacing: normal;
+  }
+  #info {
+    background-image: none;
+  }
+  #info p, ul {
+    color: black;
+  }
 }
